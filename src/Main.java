@@ -15,6 +15,12 @@ public class Main {
                 System.out.println("Introduce el radio del circulo");
                 int radio=sc.nextInt();
                 System.out.println("El area del circulo es: "+(3.14*radio*radio));
+            case 3:
+                System.out.println("Introduce el radio del cono");
+                int radioc=sc.nextInt();
+                System.out.println("Introduce la generatriz");
+                int g=sc.nextInt();
+                System.out.println("El area del como es: "+(3.14*radioc*radioc+3.14*radioc*g));
         }
 
 
