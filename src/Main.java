@@ -21,6 +21,12 @@ public class Main {
                 System.out.println("Introduce la generatriz");
                 int g=sc.nextInt();
                 System.out.println("El area del como es: "+(3.14*radioc*radioc+3.14*radioc*g));
+            case 4:
+                System.out.println("Introduce el radio del cilindro");
+                int radiocil=sc.nextInt();
+                System.out.println("Introduce la altura del cilindro");
+                int hcil=sc.nextInt();
+                System.out.println("El area del cilindro es: "+(3.14*3.14*radiocil*hcil+3.14*3.14*radiocil*radiocil));
         }
 
 
